@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="台北交通運輸整理，快速了解 DDTT、公車、捷運、交通網與 YouBike。">
+  <meta name="theme-color" content="#19795b">
+
+  <title>台北交通運輸整理</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="logo" href="#top" aria-label="回到首頁">
+        <span class="logo-mark">T</span>
+        <span>台北交通整理</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="開啟選單" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="主要導覽">
+        <a href="#ddtt">關於 DDTT</a>
+        <a href="#bus">關於公車</a>
+        <a href="#metro">關於捷運</a>
+        <a href="#network">關於交通網</a>
+        <a href="#ubike">關於 YouBike</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero-section">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">TAIPEI TRANSPORT GUIDE</p>
+          <h1>用簡單方式，<br><span>認識台北交通。</span></h1>
+          <p class="hero-description">
+            整理台北常見的大眾運輸方式，幫助你快速找到適合自己的移動選擇。
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#network">開始了解</a>
+            <a class="button button-secondary" href="#quick-links">查看官方資源</a>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="台北交通資訊摘要">
+          <div class="hero-card-top">
+            <span class="status-dot"></span>
+            <span>城市移動指南</span>
+          </div>
+
+          <div class="route-display">
+            <div class="route-point">
+              <strong>A</strong>
+              <span>出發地</span>
+            </div>
+            <div class="route-line">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="route-point route-point-end">
+              <strong>B</strong>
+              <span>目的地</span>
+            </div>
+          </div>
+
+          <div class="transport-tags">
+            <span>捷運</span>
+            <span>公車</span>
+            <span>YouBike</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-section" id="ddtt">
+      <div class="container two-column">
+        <div>
+          <p class="section-label">01 / DDTT</p>
+          <h2>關於 DDTT</h2>
+        </div>
+
+        <div class="section-copy">
+          <p class="lead">
+            DDTT 可作為「Daily Taipei Transit Tips」的交通資訊整理入口，
+            將複雜的城市交通系統，轉化為容易理解的使用指南。
+          </p>
+          <p>
+            不論是第一次來台北的旅客、剛開始通勤的學生，
+            或是想重新認識城市交通的居民，都可以從這裡快速找到適合的交通方式。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section" id="bus">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">02 / BUS</p>
+            <h2>關於公車</h2>
+          </div>
+          <p class="section-heading-description">
+            公車深入城市各個角落，是連接捷運站、住宅區與商業區的重要交通工具。
+          </p>
+        </div>
+
+        <div class="card-grid three-cards">
+          <article class="info-card">
+            <div class="card-icon">01</div>
+            <h3>路線選擇多</h3>
+            <p>
+              台北市與新北市擁有大量公車路線，適合前往捷運未直接涵蓋的地點。
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">02</div>
+            <h3>適合短程移動</h3>
+            <p>
+              在鄰近行政區或市區內移動時，公車可以減少轉乘次數，使用上更有彈性。
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon">03</div>
+            <h3>搭乘小提醒</h3>
+            <p>
+              上車前確認行駛方向，並留意站牌、即時到站資訊與下車鈴。
+            </p>
+          </article>
+        </div>
+
+        <div class="notice-box">
+          <span class="notice-icon">i</span>
+          <p>
+            公車路線、班距與營運時間可能調整，出發前建議查看官方即時資訊。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="metro">
+      <div class="container two-column metro-layout">
+        <div class="metro-visual" aria-hidden="true">
+          <div class="metro-circle">MRT</div>
+          <div class="metro-line line-one"></div>
+          <div class="metro-line line-two"></div>
+          <div class="metro-station station-one"></div>
+          <div class="metro-station station-two"></div>
+          <div class="metro-station station-three"></div>
+        </div>
+
+        <div>
+          <p class="section-label">03 / METRO</p>
+          <h2>關於捷運</h2>
+          <p class="lead">
+            台北捷運是城市中快速、穩定且容易理解的主要交通骨幹。
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="check-mark">✓</span>
+              <div>
+                <h3>路線清楚</h3>
+                <p>透過不同顏色與路線編號，快速判斷方向與轉乘方式。</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <span class="check-mark">✓</span>
+              <div>
+                <h3>轉乘方便</h3>
+                <p>多個重要車站可與其他捷運線、公車及自行車系統銜接。</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <span class="check-mark">✓</span>
+              <div>
+                <h3>適合跨區移動</h3>
+                <p>前往台北市主要商圈、景點與轉運節點時，通常是可靠的選擇。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section" id="network">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">04 / NETWORK</p>
+            <h2>關於交通網</h2>
+          </div>
+          <p class="section-heading-description">
+            台北交通的特色，在於不同運具之間可以互相搭配，形成完整的移動網絡。
+          </p>
+        </div>
+
+        <div class="network-flow">
+          <div class="network-node">
+            <span class="node-number">01</span>
+            <strong>規劃</strong>
+            <p>先確認目的地與出發時間。</p>
+          </div>
+
+          <div class="flow-arrow">→</div>
+
+          <div class="network-node active-node">
+            <span class="node-number">02</span>
+            <strong>主要移動</strong>
+            <p>利用捷運或公車完成大部分路程。</p>
+          </div>
+
+          <div class="flow-arrow">→</div>
+
+          <div class="network-node">
+            <span class="node-number">03</span>
+            <strong>最後一哩</strong>
+            <p>搭配步行或 YouBike 抵達目的地。</p>
+          </div>
+        </div>
+
+        <div class="transport-comparison">
+          <div class="comparison-item">
+            <span class="comparison-icon">M</span>
+            <div>
+              <h3>捷運</h3>
+              <p>適合快速跨區、長距離移動。</p>
+            </div>
+          </div>
+
+          <div class="comparison-item">
+            <span class="comparison-icon">B</span>
+            <div>
+              <h3>公車</h3>
+              <p>適合深入社區與彈性移動。</p>
+            </div>
+          </div>
+
+          <div class="comparison-item">
+            <span class="comparison-icon">U</span>
+            <div>
+              <h3>YouBike</h3>
+              <p>適合短程接駁與自由探索。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ubike-section" id="ubike">
+      <div class="container two-column ubike-layout">
+        <div>
+          <p class="section-label">05 / UBIKE</p>
+          <h2>關於 YouBike</h2>
+          <p class="lead">
+            YouBike 適合用來完成「最後一段路」，也適合在天氣良好時探索城市。
+          </p>
+          <p>
+            你可以將 YouBike 與捷運、公車搭配使用，減少步行距離，
+            讓短程移動更加靈活。
+          </p>
+
+          <a class="text-link" href="https://www.youbike.com.tw/" target="_blank" rel="noopener noreferrer">
+            前往 YouBike 官方網站
+            <span>↗</span>
+          </a>
+        </div>
+
+        <div class="ubike-tips">
+          <h3>使用前可以注意</h3>
+          <ul>
+            <li>確認附近是否有可借車輛。</li>
+            <li>確認目的地附近是否有可還車車柱。</li>
+            <li>騎乘時遵守交通規則並注意行人。</li>
+            <li>實際費率與使用規則以官方公告為準。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quick-links-section" id="quick-links">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">USEFUL LINKS</p>
+            <h2>官方資源</h2>
+          </div>
+          <p class="section-heading-description">
+            交通路線、營運時間與即時狀況可能變動，建議出發前再次確認。
+          </p>
+        </div>
+
+        <div class="official-links">
+          <a class="official-link" href="https://www.metro.taipei/" target="_blank" rel="noopener noreferrer">
+            <span>
+              <strong>台北捷運</strong>
+              <small>路線與營運資訊</small>
+            </span>
+            <span class="link-arrow">↗</span>
+          </a>
+
+          <a class="official-link" href="https://ebus.gov.taipei/" target="_blank" rel="noopener noreferrer">
+            <span>
+              <strong>台北市公車</strong>
+              <small>公車路線與到站資訊</small>
+            </span>
+            <span class="link-arrow">↗</span>
+          </a>
+
+          <a class="official-link" href="https://www.youbike.com.tw/" target="_blank" rel="noopener noreferrer">
+            <span>
+              <strong>YouBike</strong>
+              <small>租借站點與車輛資訊</small>
+            </span>
+            <span class="link-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <a class="logo footer-logo" href="#top">
+          <span class="logo-mark">T</span>
+          <span>台北交通整理</span>
+        </a>
+        <p>讓城市移動變得簡單清楚。</p>
+      </div>
+
+      <div class="footer-right">
+        <p>資訊僅供參考，實際營運內容請依官方公告為準。</p>
+        <p>© <span id="current-year"></span> Taipei Transport Guide</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
